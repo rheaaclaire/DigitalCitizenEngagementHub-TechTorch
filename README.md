@@ -18,8 +18,8 @@ Rhea – [GitHub Profile](https://github.com/rheaaclaire)
 
 
 ## Tech Stack
-- Frontend: React.js
-- Backend: Node.js + Express.js
-- Database: MongoDB
+- Frontend: TBD
+- Backend: TBD
+- Database: TBD
 
 
