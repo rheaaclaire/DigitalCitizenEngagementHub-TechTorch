@@ -2,8 +2,6 @@
  The Digital Citizen Engagement Hub is a cloud-native platform enabling residents to report  urban issues.
 
  ## Team Members
- 
-## Team Members
 Akhilesh – [GitHub Profile](https://github.com/Akhilesh-Singh022)  
 Vicky – [GitHub Profile](https://github.com/vickygovekar)  
 Arhaan – [GitHub Profile](https://github.com/Arhaan-Shaikh)  
@@ -19,4 +17,4 @@ Rhea – [GitHub Profile](https://github.com/rheaaclaire)
 - Database: MongoDB
 
 ## Contact
- Team Lead: Rhea — https://github.com/rheaaclaire
+ Team Lead :Rhea – [GitHub Profile](https://github.com/rheaaclaire)
