@@ -1,5 +1,6 @@
 # DigitalCitizenEngagementHub-TechTorch
- The Digital Citizen Engagement Hub is a cloud-native platform enabling residents to report  urban issues.
+Urban residents currently lack a centralized and transparent way to report local issues such as potholes, litter, or noise, and to track their resolution. The proposed solution is to build a web and mobile platform that allows citizens to log these urban issues, view their status and progress, and receive timely updates. On the other side, city officials can use an admin panel to assign tasks, escalate matters, and resolve cases. By relying solely on software workflows rather than physical sensors, the system aims to foster civic participation and ensure accountability in addressing community concerns.
+
 
  ## Team Members
 Akhilesh – [GitHub Profile](https://github.com/Akhilesh-Singh022)  
