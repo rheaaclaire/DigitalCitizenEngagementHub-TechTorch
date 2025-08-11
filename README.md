@@ -8,10 +8,10 @@ For Authorities/Municipal Staff:The system features automated ticket routing tha
 
  ## Team Members
 Akhilesh – [GitHub Profile](https://github.com/Akhilesh-Singh022)  
-Vicky – [GitHub Profile](https://github.com/vickygovekar)  
-Arhaan – [GitHub Profile](https://github.com/Arhaan-Shaikh)  
+Royston – [GitHub Profile](https://github.com/devilsdesign) 
+Arhaan – [GitHub Profile](https://github.com/Arhaan-Shaikh) 
 Myrus – [GitHub Profile](https://github.com/myrus10)  
-Royston – [GitHub Profile](https://github.com/devilsdesign)  
+Vicky – [GitHub Profile](https://github.com/vickygovekar)  
 Rhea – [GitHub Profile](https://github.com/rheaaclaire)
 
 
