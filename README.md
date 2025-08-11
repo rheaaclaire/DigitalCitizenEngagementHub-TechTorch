@@ -17,5 +17,4 @@ Rhea – [GitHub Profile](https://github.com/rheaaclaire)
 - Backend: Node.js + Express.js
 - Database: MongoDB
 
-## Contact
- Team Lead :Rhea – [GitHub Profile](https://github.com/rheaaclaire)
+
