@@ -3,12 +3,14 @@
 
  ## Team Members
  
-Akhilesh - https://github.com/Akhilesh-Singh022
-Vicky - https://github.com/vickygovekar
-Arhaan - https://github.com/Arhaan-Shaikh
-Myrus - https://github.com/myrus10
-Royston - https://github.com/devilsdesign
-Rhea - https://github.com/rheaaclaire
+## Team Members
+Akhilesh – [GitHub Profile](https://github.com/Akhilesh-Singh022)  
+Vicky – [GitHub Profile](https://github.com/vickygovekar)  
+Arhaan – [GitHub Profile](https://github.com/Arhaan-Shaikh)  
+Myrus – [GitHub Profile](https://github.com/myrus10)  
+Royston – [GitHub Profile](https://github.com/devilsdesign)  
+Rhea – [GitHub Profile](https://github.com/rheaaclaire)
+
 
 
 ## Tech Stack
