@@ -6,13 +6,14 @@ For Citizens:The platform offers an easy reporting system where users can submit
 For Authorities/Municipal Staff:The system features automated ticket routing that directs each new report to the relevant department or team based on category and location, minimizing manual sorting.A centralized dashboard provides staff with a comprehensive view of all active cases, filtered by type, locality, urgency, and update history. From here, they can assign tasks to field teams, set priorities, and update statuses.
 
 
- ## Team Members
+## Team Members
 Akhilesh – [GitHub Profile](https://github.com/Akhilesh-Singh022)  
-Royston – [GitHub Profile](https://github.com/devilsdesign) 
-Arhaan – [GitHub Profile](https://github.com/Arhaan-Shaikh) 
+Royston – [GitHub Profile](https://github.com/devilsdesign)  
+Arhaan – [GitHub Profile](https://github.com/Arhaan-Shaikh)  
 Myrus – [GitHub Profile](https://github.com/myrus10)  
 Vicky – [GitHub Profile](https://github.com/vickygovekar)  
-Rhea – [GitHub Profile](https://github.com/rheaaclaire)
+Rhea – [GitHub Profile](https://github.com/rheaaclaire)  
+
 
 
 
