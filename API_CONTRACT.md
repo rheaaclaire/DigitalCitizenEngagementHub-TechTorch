@@ -33,7 +33,7 @@
   "password": "hashed_password",
   "role": "citizen" // or "gov_employee", "organization"
 }
-```
+````
 
 ### IssueReport
 ```json
@@ -46,7 +46,7 @@
   "created_by": 1,
   "created_at": "2025-08-10T12:00:00Z"
 }
-```
+````
 
 ### Poll
 ```json
@@ -59,7 +59,7 @@
   ],
   "status": "active" // active, closed
 }
-```
+````
 
 ### Notification
 ```json
@@ -69,9 +69,9 @@
   "message": "Water will be unavailable from 2 PM to 5 PM",
   "date": "2025-08-11"
 }
-```
+````
 
----
+----
 
 ## 4. API Endpoints
 
@@ -88,22 +88,22 @@
   "password": "123456",
   "role": "citizen"
 }
-```
+````
 - **Success Response (200 OK):**
 ```json
 {
   "message": "User registered successfully",
   "user_id": 1
 }
-```
+````
 - **Error Response (400 Bad Request):**
 ```json
 {
   "error": "Email already exists"
 }
-```
+````
 
----
+----
 
 ### 2. Login
 - **Feature:** Authenticate user and return token  
@@ -128,9 +128,9 @@
 {
   "error": "Invalid credentials"
 }
-```
+````
 
----
+----
 
 ### 3. Submit Issue Report
 - **Feature:** Citizens report problems like potholes  
@@ -144,22 +144,22 @@
   "description": "Light not working near park",
   "category": "Lighting"
 }
-```
+````
 - **Success Response (201 Created):**
 ```json
 {
   "message": "Issue reported successfully",
   "issue_id": 101
 }
-```
+````
 - **Error Response (400 Bad Request):**
 ```json
 {
   "error": "Title is required"
 }
-```
+````
 
----
+----
 
 ### 4. Get All Issues
 - **Feature:** View list of all reported issues  
@@ -175,9 +175,9 @@
     "status": "pending"
   }
 ]
-```
+````
 
----
+----
 
 ### 5. Vote in Poll
 - **Feature:** Citizens participate in polls  
@@ -189,21 +189,21 @@
 {
   "option_id": 1
 }
-```
+````
 - **Success Response (200 OK):**
 ```json
 {
   "message": "Vote recorded"
 }
-```
+````
 - **Error Response (404 Not Found):**
 ```json
 {
   "error": "Poll not found"
 }
-```
+````
 
----
+----
 
 ### 6. Get Notifications
 - **Feature:** View government updates  
@@ -219,4 +219,4 @@
     "message": "Water will be unavailable from 2 PM to 5 PM"
   }
 ]
-```
+````
