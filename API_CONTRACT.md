@@ -6,7 +6,7 @@
 
 
 
----
+----
 
 ## 2. Core Features
 1. **User Registration & Login**  
@@ -20,7 +20,7 @@
 5. **Receive Notifications & Announcements**  
    Government can send updates, events, or emergency alerts to the public.
 
----
+----
 
 ## 3. Data Models
 
