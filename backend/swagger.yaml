@@ -1,0 +1,179 @@
+openapi: 3.0.0
+info:
+  title: City Feedback API
+  version: 1.0.0
+servers:
+  - url: http://localhost:3000
+paths:
+  /hello:
+    get:
+      summary: Test endpoint
+      responses:
+        '200':
+          description: Server is alive
+  /users/register:
+    post:
+      summary: Register a new user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserRegister'
+      responses:
+        '200':
+          description: User registered
+  /users/login:
+    post:
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserLogin'
+      responses:
+        '200':
+          description: Login success
+  /issues:
+    get:
+      summary: Get all issues
+      responses:
+        '200':
+          description: List of issues
+    post:
+      summary: Create a new issue
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IssueCreate'
+      responses:
+        '201':
+          description: Created
+  /issues/{id}:
+    get:
+      summary: Get single issue by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema: { type: integer }
+      responses:
+        '200':
+          description: Issue details
+    put:
+      summary: Update an issue
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema: { type: integer }
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IssueUpdate'
+      responses:
+        '200':
+          description: Updated
+    delete:
+      summary: Delete an issue
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema: { type: integer }
+      responses:
+        '200':
+          description: Deleted
+  /polls:
+    get:
+      summary: Get polls
+      responses:
+        '200':
+          description: List of polls
+  /polls/{pollId}/vote:
+    post:
+      summary: Vote in poll
+      parameters:
+        - in: path
+          name: pollId
+          required: true
+          schema: { type: integer }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                option_id:
+                  type: integer
+      responses:
+        '200':
+          description: Vote recorded
+  /notifications:
+    get:
+      summary: Get notifications
+      responses:
+        '200':
+          description: List of notifications
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    UserRegister:
+      type: object
+      required: [name, email, password, role]
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        password:
+          type: string
+        role:
+          type: string
+          enum: [citizen, gov_employee, organization]
+    UserLogin:
+      type: object
+      required: [email, password]
+      properties:
+        email:
+          type: string
+        password:
+          type: string
+    IssueCreate:
+      type: object
+      required: [title]
+      properties:
+        title:
+          type: string
+        description:
+          type: string
+        category:
+          type: string
+    IssueUpdate:
+      type: object
+      properties:
+        title:
+          type: string
+        description:
+          type: string
+        category:
+          type: string
+        status:
+          type: string
+          enum: [pending, in_progress, resolved]
